@@ -1,4 +1,4 @@
-name: Deploy Hello World App
+name: Deploy Hello App
 
 on: [push]
 
@@ -18,5 +18,5 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Run Hello  App
+    - name: Run Hello App
       run: python app.py
